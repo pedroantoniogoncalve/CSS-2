@@ -1,0 +1,166 @@
+body{
+    margin:0;
+    background: black;
+    font-family: monospace;
+}
+.header{
+    border-bottom: 3px solid aqua;
+   
+}
+.header ul .aqui {
+    font-weight: 1000;
+}
+
+.conteiner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header .conteiner{
+        
+    justify-content: space-between;
+}
+
+ul{
+    color: rgb(235, 164, 13);
+}
+
+.titulo{
+    color:aqua;
+    width: fit-content;
+}
+
+.navBar {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+
+.banner{
+    background-image: url("Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .conteiner p span {
+    font-weight: 1000;
+}
+
+.banner .conteiner{
+   
+    font-size: 36px;
+    justify-content: center;    
+}
+
+.banner .conteiner p{
+    width: 30%;
+}
+/* fim do banner */
+/* começo social */
+.social {
+    background-color: beige;
+    display: flex;
+}
+.social .conteiner .boxes .box img{
+    width: 170px;
+}
+.social .conteiner .boxes{
+    display: flex;
+    
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    background-color: aqua;
+    height: 150px;
+    color: white;
+    display: flex;
+    font-size: 15px;
+}
+
+.footer .conteiner{
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 164, 13) ;
+}
+
+.banner .conteiner .card{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 10px; 
+}
+ .card h1{
+     font-size: 30px;
+ }
+
+ .card h4{
+     font-size: 16px;
+ }
+
+ .card h1{
+     border-radius: 4px;
+ }
+
+ .card input{
+     border: palevioletred solid 2px;
+     padding: 10px;
+     text-align: center;
+ }
+
+ .card button{
+     background-color: palevioletred;
+     margin-top: 20px;
+     font-size: 20px;
+     height: 30px;
+     width: 100px;
+     font: 700 20px monospace;
+     color: #ffff;
+     border: 0; border-radius: 4px;
+     cursor: pointer;
+ }
+.cardastro{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: palevioletred;
+    align-items: center;
+    border-radius: 10px; 
+}
+ .cardastro h1{
+    font-size: 16px;
+ }
+ .cardastro h4{
+     font-size: 14px;
+ }
+ .cardastro button{
+    background-color: palevioletred;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    font: 700 20px monospace;
+    color: #ffff;
+    border: 0; border-radius: 4px;
+    cursor: pointer;
+ }
+ 
